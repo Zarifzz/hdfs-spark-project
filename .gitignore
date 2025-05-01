@@ -1,0 +1,16 @@
+#Ignore all spark and hadoop
+hadoop-3.4.1/*
+spark-3.5.5-bin-hadoop3/*
+
+#conf dirs
+!hadoop-3.4.1/etc/
+!hadoop-3.4.1/etc/hadoop/
+!hadoop-3.4.1/etc/hadoop/**
+
+!spark-3.5.5-bin-hadoop3/conf/
+!spark-3.5.5-bin-hadoop3/conf/**
+
+
+
+
+
