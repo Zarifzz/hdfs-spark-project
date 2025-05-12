@@ -1,0 +1,5 @@
+altair==5.5.0
+findspark==2.0.1
+pandas==2.2.3
+pyspark==3.5.5
+streamlit==1.45.0
