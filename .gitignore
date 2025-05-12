@@ -3,9 +3,15 @@ hadoop-3.4.1/*
 spark-3.5.5-bin-hadoop3/*
 
 #conf dirs
-!hadoop-3.4.1/etc
-!hadoop-3.4.1/etc/hadoop
-!spark-3.5.5-bin-hadoop3/conf
+!hadoop-3.4.1/
+!hadoop-3.4.1/etc/
+!hadoop-3.4.1/etc/hadoop/
+
+
+!spark-3.5.5-bin-hadoop3/
+!spark-3.5.5-bin-hadoop3/conf/
+
+
 
 #hdfs conf
 !hadoop-3.4.1/etc/hadoop/core-site.xml
